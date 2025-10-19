@@ -1,0 +1,39 @@
+.footer {
+  background-color: #172337;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #bbb;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #bbb;
+  margin: 0 8px;
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}

@@ -1,0 +1,71 @@
+/* 🌈 Global Styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f6fa; /* soft background for the app */
+  color: #222;
+}
+
+/* 🌟 Wrapper styling */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 🧭 Navbar area */
+nav {
+  background: linear-gradient(135deg, #2a3d66, #172337);
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* 📦 Main content area */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background: linear-gradient(to bottom right, #ffffff, #e9eef7);
+  border-radius: 8px;
+  margin: 15px auto;
+  width: 90%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 💬 Button styles (applies across site) */
+button {
+  background-color: #2874f0;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #1256c1;
+}
+
+/* 🛍️ Category and product areas */
+.category-heading,
+.cart-title {
+  color: #1a237e;
+  font-weight: 600;
+  text-align: center;
+}
+
+.checkout-container,
+.payment-container,
+.order-success {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  margin: 25px auto;
+  width: 80%;
+  max-width: 800px;
+}
